@@ -13,7 +13,7 @@ import os
 
 API_KEY = "put your api key from open router here"
 
-MODEL = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+MODEL = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" # you can put any free model here
 
 URL = "https://openrouter.ai/api/v1/chat/completions"
 
@@ -23,9 +23,9 @@ HEADERS = {
     "HTTP-Referer": "http://localhost",
     "X-Title": "Jarvis"
 }
-
+# you can change the system prompt here
 SYSTEM_PROMPT = """
-You are Jarvis.
+You are Jarvis.                                          
 A futuristic AI assistant.
 Be smart, concise, professional, and helpful.
 """
